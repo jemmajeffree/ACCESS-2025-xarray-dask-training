@@ -13,6 +13,7 @@ chance to try fix that. Also, having examples applicable to one-self is always g
 * I think we want everyone to have 4 hours of 7 cores - enough to see that parallelisation is important, but few enought that you actually want to be smart about it
 * I'm not sure how much more useful content is worth adding to the slides, so maybe we slow down a little bit along the way with everyone going through my notebooks not just me, 
 and then we make the end freeform "try fix this code" or "try and improve your own code" depending on your propensity.
+* xr.apply_ufunc needs to be more broadly updated, which means I need to learn how to use it better :)
 
 
 
