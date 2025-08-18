@@ -23,3 +23,23 @@ and then we make the end freeform "try fix this code" or "try and improve your o
 
 
 ## Please put some more stuff in here! I'll go through the week of the 18th August and turn this brainstorm into an actual plan
+
+## Paige's comments
+
+### Slides
+
+* For the "Why bother writing good code?" slide, perhaps we could add "Code less error prone". I'm thinking specifically about using Xarray and how its labeled dimensions, etc. make writing code less prone to human error.
+* Maybe we could add a bit more on chunking before diving into the "Black magic of chunking" slide (eg the human parallel computer idea!)
+* It might be nice to have a bit more "stage setting" at the start - eg a quick reminder intro of what Xarray and Dask are
+* Maybe this is just me being too used to Xarray and Dask, but it's not entirely clear to me what is being "rethought" in the 4 coding examples. Perhaps I should rewatch the recording of your COSIMA training... :)
+
+### Notebooks/code examples
+
+* It might be nice to have some examples or exercises that help participants to understand how Dask works on Gadi specifically. During the COSIMA training, there were a few times when you mentioned that it's often best to include specific flags in Gadi workflows, so maybe some examples that could show how/why some of those tips and tricks work could be useful.
+* Possibly related to the previous comment, maybe we could give an exercise using Dask that will crash the kernel and use that as a learning moment (either demonstrate why that happened or have them try to fix it)
+* It is always nice to have an example that shows a calculation where Dask makes things faster - maybe we could add one of those? We could also find one where Dask makes the calculation run slower to show that it's not always helpful in every situation.
+* Not sure if this was the plan, but I think it would be useful to have some coding exercises associated with the examples shown in the slides. This would make the session a bit more hands-on.
+
+### Overall comments
+* I like the idea of people bringing their own data that they've had trouble with, but we'd probably need to do some planning to make sure that it can be pulled off and actually useful for everyone. For instance, I could imagine people coming with their own data, but then it takes them time to figure out how to read it in or the trouble they had with their data has nothing to do with Xarray and Dask even if they thought it did. So anyway, we'd likely want to have some specific instructions for what types of data and data troubles people should bring in if we go this way. Also, we would want to make sure that it doesn't just become a help session for those that brought their own data - or maybe this would be a good thing?
+* We should probably point participants at the end toward resources where they can learn more about Xarray/Dask (eg the docs pages) and ask for help (the Hive Forum). Maybe it would also be nice to point them to some specific COSIMA recipes that demonstrate various uses of Xarray and Dask on Gadi?
